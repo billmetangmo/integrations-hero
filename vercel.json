@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/external-apps/73e39b93-22f2-48b2-ba2b-50e25f60e646",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}
