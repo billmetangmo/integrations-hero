@@ -56,7 +56,7 @@ function showMarkdown(markdownText) {
 }
 
 const search = instantsearch({
-  indexName: 'integrations-hero',
+  indexName: 'prod_integrations-hero',
   searchClient: algoliasearch(
     process.env.ALGOLIA_APPID,
     process.env.ALGOLIA_SEARCH_API_KEY
