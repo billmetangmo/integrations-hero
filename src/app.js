@@ -74,6 +74,7 @@ search.addWidgets([
   instantsearch.widgets.refinementList({
     container: '#brand-list',
     attribute: 'Tool',
+    limit: 16,
   }),
   instantsearch.widgets.hits({
     container: '#hits',
