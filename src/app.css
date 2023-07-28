@@ -17,11 +17,11 @@ body {
 
 .left-panel {
   float: left;
-  width: 250px;
+  width: 200px;
 }
 
 .right-panel {
-  margin-left: 260px;
+  margin-left: 20px;
 }
 
 .ais-InstantSearch {
@@ -47,4 +47,34 @@ body {
   color: #888;
   font-size: 14px;
   margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 768px) {
+  .left-panel,
+  .right-panel {
+    float: none;
+    width: auto;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .ais-InstantSearch {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .ais-SearchBox {
+    order: 1;
+    width: 100%;
+  }
+
+  .left-panel {
+    order: 2;
+  }
+
+  .right-panel {
+    order: 3;
+    flex: 1;
+  }
 }

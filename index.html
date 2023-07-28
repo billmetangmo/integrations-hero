@@ -1,56 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="theme-color" content="#000000" />
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+  <meta content="#000000" name="theme-color"/>
+  <!-- Matomo Tag Manager -->
+  <script>
+   var _mtm = window._mtm = window._mtm || [];
       _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
       var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
       g.async=true; g.src='https://matomo.mongulu.cm/js/container_ywbDIrkt.js'; s.parentNode.insertBefore(g,s);
-      </script>
-    <!-- End Matomo Tag Manager -->
-
-    <link rel="manifest" href="./manifest.webmanifest" />
-    <link rel="shortcut icon" href="./favicon.png" />
-
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css"
-    />
-    <link rel="stylesheet" href="./src/index.css" />
-    <link rel="stylesheet" href="./src/app.css" />
-
-    <title>Integrations hero</title>
-  </head>
-
-  <body>
-    <div class="ais-InstantSearch">
-      <h1>Integrations hero</h1>
-      <h4>Use the bar to search on apps in Zapier, Make, pipedream and n8n. All apps contain a table of all triggers and integrations</h2>
-      <h4>Latest data update - March 02, 2023</h4>
-      <div class="left-panel">
-        <div id="clear-refinements"></div>
-
-        <h2>Tool</h2>
-        <div id="brand-list"></div>
-      </div>
-
-      <div class="right-panel">
-        <div id="searchbox" class="ais-SearchBox"></div>
-        <div id="hits"></div>
-        <div id="pagination"></div>
-      </div>
+  </script>
+  <!-- End Matomo Tag Manager -->
+  <link href="./manifest.webmanifest" rel="manifest"/>
+  <link href="./favicon.png" rel="shortcut icon"/>
+  <link href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css" rel="stylesheet"/>
+  <link href="./src/index.css" rel="stylesheet"/>
+  <link href="./src/app.css" rel="stylesheet"/>
+  <title>
+   Integrations hero
+  </title>
+ </head>
+ <body>
+  <div class="ais-InstantSearch">
+   <h1>
+    Integrations hero
+   </h1>
+   <h4>
+    Use the bar to search on apps in Zapier, Make, pipedream and n8n. All apps contain a table of all triggers and integrations
+    <h4>
+     Latest data update - March 02, 2023
+    </h4>
+    <div class="ais-SearchBox" id="searchbox">
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
-    <script src="./src/app.js"></script>
-  </body>
+    <div class="left-panel">
+     <div id="clear-refinements">
+     </div>
+     <h2>
+      Tool
+     </h2>
+     <div id="brand-list">
+     </div>
+    </div>
+    <div class="right-panel">
+     <div id="hits">
+     </div>
+     <div id="pagination">
+     </div>
+    </div>
+   </h4>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js">
+  </script>
+  <script src="./src/app.js">
+  </script>
+ </body>
 </html>
