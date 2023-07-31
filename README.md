@@ -1,4 +1,4 @@
-# getting-started
+# Integrations hero
 
 [![Edit algolia-insights](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/algolia/doc-code-samples/tree/master/instantsearch.js/algolia-insights)
 
